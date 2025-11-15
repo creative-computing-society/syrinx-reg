@@ -221,7 +221,9 @@ function Registration() {
 </h2> */}
 <h2 className="text-center text-lg md:text-xl lg:text-2xl text-white/80 bg-red-600/20 border border-red-500/40 px-5 py-3 rounded-xl shadow-md tracking-wide max-w-3xl leading-relaxed">
   Click the “Let’s Play” button only after all team members have joined your team.<br />
-  Maximum allowed team size is 4. Minimum is 2.
+  Maximum allowed team size is 4. Minimum is 2.<br />
+  Even if you have created a team on <span className="font-semibold">saturnalia.in</span>, please create a new one here again.<br />
+  Follow the game instructions sent to your mail.
 </h2>
 
 
