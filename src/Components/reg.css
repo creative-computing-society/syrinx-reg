@@ -1,0 +1,42 @@
+
+
+
+.input-field {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.8em;
+    padding: 10px 20px;
+    background: #1e1e1e;
+    border: 2px solid #ffee81;
+    border-radius: 4px;
+    color: #1e90ff;
+    outline: none;
+    width: 100%;
+    transition: border-color 0.3s ease;
+  }
+  @media screen and (max-width: 767px){
+    .input-field{
+      font-size: 0.6em;
+    }
+      .error-message{
+        font-size: 0.6em;
+    }
+    
+  }
+  .error{
+    border: 2px solid #ff0000;
+  }
+  .error-message{
+    display: flex;
+    color: #ff0000;
+    font-size: 0.8em;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  .input-field:focus {
+    border-color: #ff9900;
+  }
+  .error-message{
+    width: 100%;
+  }

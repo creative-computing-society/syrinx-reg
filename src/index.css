@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+   body {
+     font-family: 'VT323', monospace;
+     background-color: #000;
+     color: #ffee81;
+     margin: 0;
+     padding: 0;
+   }
+   
+
+   ::-webkit-scrollbar {
+     width: 0px;}
+
+@media (max-width: 768px) {
+  .Toastify__toast-container{
+    width: 90% !important; 
+    left: 5% !important; 
+    font-size: 12px;
+  }
+}
+
+/* custom-toastify.css */
+.Toastify__toast{
+  font-family: 'VT323', monospace;
+  font-size: 20px;
+}
+

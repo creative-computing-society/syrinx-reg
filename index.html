@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/ccs.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <meta property="og:image" content="https://syrinx.ccstiet.com/ccs_logo.png" />
+    <title>Syrinx</title>
+  </head>
+  <body>
+    <script>
+      // Original title of the page
+      const originalTitle = document.title;
+
+      // Titles for active and inactive states
+      const activeTitle = "Syrinx";
+      const inactiveTitle = "Come Back!";
+
+      // Function to update the title based on page visibility
+      function handleVisibilityChange() {
+          if (document.hidden) {
+              document.title = inactiveTitle;
+          } else {
+              document.title = activeTitle;
+          }
+      }
+
+      // Add event listener for visibility change
+      document.addEventListener("visibilitychange", handleVisibilityChange);
+  </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
