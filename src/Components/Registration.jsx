@@ -143,7 +143,7 @@ function Registration() {
     data.TeamID = tid;
 
     // let url = 'api.syrinx.ccstiet.com';
-    const response = await fetch('http://api-syrinx.ccstiet.com/signup', {
+    const response = await fetch('https://api-syrinx.ccstiet.com/signup', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: tosend,
