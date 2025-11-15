@@ -219,9 +219,9 @@ function Registration() {
   Click the “Let’s Play” button only after all your teammates have joined your team. 
   Maximum team size: 4 members.
 </h2> */}
-<h2 className="text-center text-lg md:text-xl lg:text-2xl text-white-300 bg-red-600/20 border border-red-500/40 px-5 py-3 rounded-xl shadow-md tracking-wide max-w-3xl leading-relaxed">
-  Click the “Let’s Play” button only after all team members have joined your team. 
-  Maximum allowed team size is 4.
+<h2 className="text-center text-lg md:text-xl lg:text-2xl text-white/80 bg-red-600/20 border border-red-500/40 px-5 py-3 rounded-xl shadow-md tracking-wide max-w-3xl leading-relaxed">
+  Click the “Let’s Play” button only after all team members have joined your team.<br />
+  Maximum allowed team size is 4. Minimum is 2.
 </h2>
 
 
